@@ -13,10 +13,9 @@
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundImage": "./assets/images/splash-icon01.png",
+        "foregroundImage": "./assets/images/splash-icon01.png",
         "backgroundColor": "#ffffff"
-      },
-      "package": "com.smh125.GameLoop"
+      }
     },
     "web": {
       "bundler": "metro",
@@ -37,15 +36,6 @@
     ],
     "experiments": {
       "typedRoutes": true
-    },
-    "extra": {
-      "router": {
-        "origin": false
-      },
-      "eas": {
-        "projectId": "82c5bd2c-7ba8-4c38-a9b3-900c292660ef"
-      }
-    },
-    "owner": "smh125"
+    }
   }
 }
