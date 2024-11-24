@@ -5,6 +5,8 @@ import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 import FontAwesome6 from '@expo/vector-icons/FontAwesome6';
 import Ionicons from '@expo/vector-icons/Ionicons';
 import { Tabs, } from "expo-router";
+import { BottomTabBar } from '@react-navigation/bottom-tabs';
+import BlurTabBarBackground from '@/app-example/components/ui/TabBarBackground.ios';
 
 
 export default function RootLayout() {
@@ -39,6 +41,16 @@ export default function RootLayout() {
       },
       headerShown: false, // Hide the header
       // headerBackVisible: true, // Hide the back button title
+      tabBarShowLabel:'#6200EE',
+      tabBarActiveTintColor:'#6200EE',
+      tabBarInactiveTintColor:'black',
+      BlurTabBarBackground:true,
+      taBarActiveBackgroundColor:'#6200EE',
+      tabBarInactiveBackgroundColor:'white',
+      tabBarLabelStyle:{
+        fontSize:12,
+        // fontWeight:'bold',
+      }
     }}
     initialRouteName="(ahome)"
     >

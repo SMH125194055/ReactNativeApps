@@ -80,7 +80,7 @@ const styles = StyleSheet.create({
   },
   bat: {
     position: 'absolute',
-    bottom: 150,
+    bottom: 70,
     left: 50,
     width: 100,
     height: 20,
@@ -93,7 +93,7 @@ const styles = StyleSheet.create({
   },
   ball: {
     position: 'absolute',
-    bottom: 160,
+    bottom: 85,
     left: 160,
     width: 30,
     height: 30,
