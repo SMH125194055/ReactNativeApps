@@ -1,4 +1,6 @@
-[Watch the Demo Video][![Watch the Demo Video](https://img.youtube.com/vi/uvzKk8HEsYY/0.jpg)](https://youtube.com/shorts/uvzKk8HEsYY?feature=share)
+# Watch the Demo Video
+
+[![Watch the Demo Video](https://img.youtube.com/vi/uvzKk8HEsYY/0.jpg)](https://youtube.com/shorts/uvzKk8HEsYY?feature=share)
 
 
 # Welcome to your Expo app 👋
