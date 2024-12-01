@@ -51,8 +51,8 @@ export default function DetailsPage() {
     };
 
     return (
-        <GestureHandlerRootView>
-            <PanGestureHandler onGestureEvent={handleGesture}>
+        // <GestureHandlerRootView>
+            // <PanGestureHandler onGestureEvent={handleGesture}>
                 <Animated.View style={styles.container}>
                     <ScrollView contentContainerStyle={styles.content}>
                         {/* Match Summary */}
@@ -127,8 +127,8 @@ export default function DetailsPage() {
                         )}
                     </ScrollView>
                 </Animated.View>
-            </PanGestureHandler>
-        </GestureHandlerRootView>
+            // </PanGestureHandler>
+        // </GestureHandlerRootView>
     );
 }
 
